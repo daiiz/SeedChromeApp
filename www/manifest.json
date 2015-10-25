@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "SeedChromeApp",
+  "short_name": "SeedChromeApp",
+  "description": "A minimum configuration for chrome app.",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16" : "seed-icon.png",
+    "48" : "seed-icon.png",
+    "128": "seed-icon.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "permissions": ["storage", "unlimitedStorage", "<all_urls>"]
+}
